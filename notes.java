@@ -6,6 +6,21 @@ public class notes {
 
 
 
+        String[] teamRoster = new String[3];
+
+// Setting player names
+        teamRoster[0] = "Mike";
+        teamRoster[1] = "Scottie";
+        teamRoster[2] = "Toni";
+
+        System.out.println("Current roster:");
+
+      //for (  each   in    array )
+        for (String x : teamRoster) {
+            System.out.println(x);
+        }
+
+
 
         int[] numbers = {1, 2, 3, 4, 5};
         int sum = 0;
