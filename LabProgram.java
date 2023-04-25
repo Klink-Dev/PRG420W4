@@ -125,7 +125,35 @@ public class LabProgram {
         }System.out.println();
 
 **********************************************************/
+        Scanner scnr = new Scanner(System.in);
 
+        int length = scnr.nextInt();
+
+        int[] userValues = new int[length];  // List of integers from input
+
+        int i;
+
+
+
+        for (i = 0; i < length; ++i) {
+
+            userValues[i] = scnr.nextInt();
+
+        }
+
+
+
+        for (i = 0; i < length; ++i) {
+
+            if (userValues[i] <= userValues[userValues.length - 1]) {
+
+                System.out.print("" + userValues[i] + ",");
+
+            }
+
+        }
+
+        System.out.println();
 
 /***********************4.16 LAB: Adjust list by normalizing
 //When analyzing data sets, such as data for human heights or for human
@@ -235,6 +263,7 @@ public class LabProgram {
 //To achieve the above, first read the list into an array.
 // Keep in mind that the character 'a' is not equal to the character 'A'.
 
+        /*
 
         Scanner input = new Scanner(System.in);
         int arrlen = input.nextInt();
@@ -255,7 +284,7 @@ public class LabProgram {
         }
         System.out.println();
 
-
+*/
 
     }
 }

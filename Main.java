@@ -181,7 +181,7 @@ public class Main {
 
 
 
-        Scanner scnr = new Scanner(System.in);
+/*        Scanner scnr = new Scanner(System.in);
         int passengerAge;
         int carryOns;
         int checkedBags;
@@ -191,9 +191,9 @@ public class Main {
         carryOns = scnr.nextInt();
         checkedBags = scnr.nextInt();
 
-        /* Type your code here. */
+        //* Type your code here.
 
-        System.out.println(airFare);
+        System.out.println(airFare);*/
 
 
 
